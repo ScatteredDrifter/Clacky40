@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\elmo\Documents\Git\keyboard_design\Dizzy40\pcb\dizzy40.kicad_sch</source>
-    <date>07/06/2022 22:39:01</date>
-    <tool>Eeschema (6.0.1)</tool>
+    <source>/home/evelyn/Nextcloud/tech-cluster/KEYBOARDS/__own_designs/Clacky40/pcb/dizzy40.kicad_sch</source>
+    <date>Sat 30 Sep 2023 22:34:11 CEST</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -22,1100 +22,1275 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="2" name="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/">
+      <title_block>
+        <title>Rp2040 __template__</title>
+        <company>scattered_lenity.space</company>
+        <rev>REV 0.1</rev>
+        <date>2020-12-18</date>
+        <source>RP2040_tmp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
+    <comp ref="D17">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>807651d5-3df3-4137-a815-4ff8289911eb</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c47fc3a-429b-40ac-9b0f-15f81bec9903</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fbf2ff1-2c34-43aa-a01d-9c3742160a85</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e8bdbbe-fa61-4a44-9dd4-c778be5261eb</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4d7cb85-08a0-4b5c-b9ac-551ed33183a7</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74beb7f1-6781-4adf-b90d-3aca543b9f71</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>539a8bc1-c34d-4ebf-8265-504a7d008145</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c896ab8b-8bb3-4851-a385-e883238673b2</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bde252d6-e659-4ccc-a57e-d0f00e95454d</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a41cfa55-26a4-4fa8-a97d-149b27978082</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc81df17-be97-4f44-8468-339dc5cc25a8</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7315ca2e-275b-470e-a1d3-c1c5163f850d</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02c68d72-1477-4e1e-b2bd-926932fed68a</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6e27bf9-63db-4f97-8181-5e548eb5dcc8</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbc4b713-f9e2-4a55-80d4-8af243924af6</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d428330-f20c-4149-886c-94f631a23b64</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b35c3bf0-8954-44c5-9e0f-9a1af569bf30</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9947e6c3-777a-4711-87ed-54586fa73a89</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cab25de-3d48-4672-b962-c1c2ca9b938a</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>135dec2e-b22b-46a3-8a76-9cee865c8480</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ae0067-cb21-4aef-bdf1-273070a1576d</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1867d31d-ee3b-4626-8e12-e42ae05e7e9c</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>BAV70</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6321f5b9-5ea9-441b-a7f1-a49a5a66d4cf</tstamps>
+    </comp>
+    <comp ref="ENC1">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="ki_keywords" value="rotary switch encoder switch push button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4125b4a4-9d25-4407-95ff-0a9943473508</tstamps>
+    </comp>
+    <comp ref="ENC2">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="ki_keywords" value="rotary switch encoder switch push button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f4760ae-47e4-4a1f-b6c3-79d5c445531c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>marbastlib-mx:STAB_MX_P_2u</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45bb1785-af66-48de-8886-3808b73b4eb4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>marbastlib-mx:STAB_MX_P_2u</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc1e15e0-a941-4bf7-b270-f6c772937bd0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>marbastlib-mx:STAB_MX_P_2u</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>084db5e7-48f2-42fc-bf49-755b8c442ac9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>marbastlib-mx:STAB_MX_P_2u</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36a6ad4b-913c-4987-ab09-e810b4ded451</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>marbastlib-mx:STAB_MX_P_2u</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba5ea9da-4bed-49a9-82bc-1a2d8fd2f62c</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb8f75d4-99f0-4e5a-9a91-6b96e5bd90dc</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27d6e0f3-017d-414c-a4c2-d9c93575f86c</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09a27931-f185-4717-93eb-3368265464d1</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0f67e10-2bad-4cb8-ad87-13897c370fd3</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>109f31da-f8cb-4e62-8729-a730f407dc4a</tstamps>
+    </comp>
+    <comp ref="K6">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a9608fb-a69f-4ae9-905c-88c45fa00f61</tstamps>
+    </comp>
+    <comp ref="K7">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e391faf-29b2-4b14-a5ea-279059078016</tstamps>
+    </comp>
+    <comp ref="K8">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa4c8f0f-265b-4a9f-b7c7-36091be39d87</tstamps>
+    </comp>
+    <comp ref="K9">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae4e4c52-8000-4d87-986b-84d3127a3803</tstamps>
+    </comp>
+    <comp ref="K10">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afa15141-3ce4-4de8-80df-32692a7d0472</tstamps>
+    </comp>
+    <comp ref="K11">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>886236d6-055d-42b6-8b9b-521aa6e2a045</tstamps>
+    </comp>
+    <comp ref="K12">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b06e8fd9-3802-4529-ae36-c3bf2f095127</tstamps>
+    </comp>
+    <comp ref="K13">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a55a6e6e-33b2-4016-b987-56c948c1b448</tstamps>
+    </comp>
+    <comp ref="K14">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>080c55dc-b059-4919-8e55-0d8b62a2550a</tstamps>
+    </comp>
+    <comp ref="K15">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>563d2cf4-8ea7-4049-9cf6-a3b391d01b95</tstamps>
+    </comp>
+    <comp ref="K16">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20d2bc3a-8a9b-4a14-9ad8-35390888abeb</tstamps>
+    </comp>
+    <comp ref="K17">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad9b14b6-4a0f-4e6b-a433-6c8e9786b3db</tstamps>
+    </comp>
+    <comp ref="K18">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57825875-6983-4a38-bb37-d6ea3d05489d</tstamps>
+    </comp>
+    <comp ref="K19">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c81a91e0-d9a7-4760-8c07-b2731a546fbc</tstamps>
+    </comp>
+    <comp ref="K20">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddacd229-e068-461a-8d68-4c405d39575e</tstamps>
+    </comp>
+    <comp ref="K21">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8296e673-d94b-4e9d-8d98-fab31b151e06</tstamps>
+    </comp>
+    <comp ref="K22">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c012650e-7e49-485d-bf9f-11dbd9a450d4</tstamps>
+    </comp>
+    <comp ref="K23">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82cadff1-e88f-4072-b81d-810e89868732</tstamps>
+    </comp>
+    <comp ref="K24">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26bc9b01-d77f-4b2c-a67b-24578f55e753</tstamps>
+    </comp>
+    <comp ref="K25">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6899459e-8dd6-4879-9a1c-8e3365be6d93</tstamps>
+    </comp>
+    <comp ref="K26">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfddba9e-fd8c-4a01-991e-cecf2846ad06</tstamps>
+    </comp>
+    <comp ref="K27">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5d8423c-d7ef-4a68-b06e-98c6b56a55f8</tstamps>
+    </comp>
+    <comp ref="K28">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f1761ef-5ffa-4af9-9031-208425a319d8</tstamps>
+    </comp>
+    <comp ref="K29">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e3885ee-2342-442a-bf9c-7815962ae53a</tstamps>
+    </comp>
+    <comp ref="K30">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d8ec539-a723-477b-b73b-c67e861ac5e0</tstamps>
+    </comp>
+    <comp ref="K31">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9afdd099-77b5-40cd-a6be-72061b362bc0</tstamps>
+    </comp>
+    <comp ref="K32">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab15071-2142-4c0c-af94-edec26a4bc19</tstamps>
+    </comp>
+    <comp ref="K33">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd8f55d1-37f8-434c-bd9c-e37ea980332d</tstamps>
+    </comp>
+    <comp ref="K34">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99a567e2-2b92-4dba-8afc-439503e0ad29</tstamps>
+    </comp>
+    <comp ref="K35">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>473f0b06-30c4-4bcd-912a-6a73ca12bf0f</tstamps>
+    </comp>
+    <comp ref="K36">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baebea69-d761-42e5-b886-f67c1de4f5fc</tstamps>
+    </comp>
+    <comp ref="K37">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aee4843e-9715-4069-ba9a-09cf14574410</tstamps>
+    </comp>
+    <comp ref="K38">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4c43467-74d7-4405-a1e1-a20280f4add7</tstamps>
+    </comp>
+    <comp ref="K39">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc6fe461-53ea-48f6-b4db-c2e9f6de3231</tstamps>
+    </comp>
+    <comp ref="K40">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1db4fe70-3fba-4f6b-bceb-0e37dd4c9271</tstamps>
+    </comp>
+    <comp ref="K41">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a31b0b-ef86-485c-981d-9f9af8b3d237</tstamps>
+    </comp>
+    <comp ref="K42">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e24ed0f3-debb-4b2e-bf46-d0b46db20367</tstamps>
+    </comp>
+    <comp ref="K45">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae4511f-dd5d-4d02-a1dc-4ea20f9190ad</tstamps>
+    </comp>
+    <comp ref="K46">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3321179c-3f6d-4b8d-a255-a35ab9cd3a75</tstamps>
+    </comp>
+    <comp ref="K49">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12eefd14-532d-48e0-885a-d89227f4d4db</tstamps>
+    </comp>
+    <comp ref="K50">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b87e95b6-75ac-4cb5-bd51-ab58e5a3c613</tstamps>
+    </comp>
+    <comp ref="K51">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7d63b27-9820-4f5c-98ef-6ad605951a16</tstamps>
+    </comp>
+    <comp ref="K52">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3207f3b-d165-417a-bd87-357d7a797815</tstamps>
+    </comp>
+    <comp ref="K53">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3428fbc-3ed3-44c6-8a6d-052c0dfee6a7</tstamps>
+    </comp>
+    <comp ref="K54">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76dbf9a1-2b9b-4bca-b801-59ef474e740b</tstamps>
+    </comp>
+    <comp ref="K55">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2bc9330-cd5e-4ec5-b8f8-0ea185118800</tstamps>
+    </comp>
+    <comp ref="K56">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f4e99f3-6100-4c24-9431-62b5a0160c77</tstamps>
+    </comp>
+    <comp ref="K57">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>685230ae-f701-4ac4-af21-61e5c91419ff</tstamps>
+    </comp>
+    <comp ref="K58">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f3dbbc8-a514-40f9-965f-27e1c3840ce3</tstamps>
+    </comp>
+    <comp ref="K59">
+      <value>KEYSW</value>
+      <footprint>marbastlib-mx:SW_MX_1u</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f50ecf1c-87ea-49fa-8dc5-495cbf75d14e</tstamps>
+    </comp>
+    <comp ref="RGB1">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3de39562-ecb0-492f-b71f-d276cee23e94</tstamps>
+    </comp>
+    <comp ref="RGB2">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>733ef4dc-b125-4d0d-aced-9fcc635339ec</tstamps>
+    </comp>
+    <comp ref="RGB3">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9488da26-94a3-412c-9aeb-7269bb32820d</tstamps>
+    </comp>
+    <comp ref="RGB4">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4f96c2f-faf1-4802-aeda-14d71698ec49</tstamps>
+    </comp>
+    <comp ref="RGB5">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4627c2cb-65b2-432f-a33d-b8963077a2c5</tstamps>
+    </comp>
+    <comp ref="RGB6">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45b05d24-fecd-498a-bab1-79cc4a63c261</tstamps>
+    </comp>
+    <comp ref="RGB7">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>805a5cbc-3cc6-47ba-8a70-8c129ef32081</tstamps>
+    </comp>
+    <comp ref="RGB8">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5cd1eff-320b-485f-8316-d60772364ecc</tstamps>
+    </comp>
+    <comp ref="RGB9">
+      <value>WS2812B</value>
+      <footprint>kbd:LED_WS2812B-PLCC4</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C965555"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52be05e9-7dfd-405e-b06d-cd6fe0bd7a10</tstamps>
+    </comp>
     <comp ref="C1">
-      <value>10uF</value>
+      <value>10u</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C91245</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C91245"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe3bfab</tstamps>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005f09255d</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1uF</value>
+      <value>22pf</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C49678</field>
+        <field name="LCSC">C1804</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C49678"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe3b011</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1804"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed96b87</tstamps>
     </comp>
     <comp ref="C3">
-      <value>0.1uF</value>
+      <value>22pf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C1804</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1804"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed98685</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C91245</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C91245"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005f0930a1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C49678"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe3b7d6</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C1804</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe3fd63</tstamps>
-    </comp>
-    <comp ref="C5">
-      <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C1804</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C1804"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe40131</tstamps>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005edb1aa1</tstamps>
     </comp>
     <comp ref="C6">
-      <value>1uF</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C24123</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="LCSC" value="C24123"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe395b0</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef00505</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061bd9ec1</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef0050f</tstamps>
     </comp>
-    <comp ref="D2">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C28323</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8bff7</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef07987</tstamps>
     </comp>
-    <comp ref="D3">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8f0c5</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eeee897</tstamps>
     </comp>
-    <comp ref="D4">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C28323</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8f0ef</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ef08170</tstamps>
     </comp>
-    <comp ref="D5">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff96a5f</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef00bb</tstamps>
     </comp>
-    <comp ref="D6">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3a3eae8d-744a-4637-86e5-9a45e1e9ebc2</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef0473</tstamps>
     </comp>
-    <comp ref="D8">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>86c06f8e-d7a6-49dd-8e10-c549cf4ec18c</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef0994</tstamps>
     </comp>
-    <comp ref="D9">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C49678</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1390b177-5808-4c98-8b84-519e500f0dfe</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eef89b3</tstamps>
     </comp>
-    <comp ref="D10">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
+    <comp ref="C17">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C68978</field>
+        <field name="LCSC">C91245</field>
       </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b81bdfd8-e5a4-40f2-896d-f639518c1695</tstamps>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C91245"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005f1af96d</tstamps>
     </comp>
-    <comp ref="D11">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2b871816-dce3-45e9-bafd-b44d2e93f9df</tstamps>
-    </comp>
-    <comp ref="D12">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c8fd8b0-5571-4349-8c23-cee064799739</tstamps>
-    </comp>
-    <comp ref="D14">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>eea70e72-f7b1-44d9-b4a5-9fc4c4030e5f</tstamps>
-    </comp>
-    <comp ref="D15">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>88283b6d-1e32-4c69-9648-9970fff8de9b</tstamps>
-    </comp>
-    <comp ref="D16">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>61b767fb-941b-4967-992f-9a45cc0d0403</tstamps>
-    </comp>
-    <comp ref="D17">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9d3512c2-eee3-4f69-9e51-9c912af6fbcb</tstamps>
-    </comp>
-    <comp ref="D18">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>568431db-0883-42b6-870e-b77fa932452a</tstamps>
-    </comp>
-    <comp ref="D19">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a258a045-b713-4483-b55a-adf4afdddbdd</tstamps>
-    </comp>
-    <comp ref="D20">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5567b2c7-2d72-4df1-8068-55b93ae4a03b</tstamps>
-    </comp>
-    <comp ref="D22">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>52a8eed6-275e-4701-9667-182cd5a2fbcd</tstamps>
-    </comp>
-    <comp ref="D23">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>49f752c1-cc2a-4745-9631-a3eb0622c368</tstamps>
-    </comp>
-    <comp ref="D24">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1c1e74a2-21c2-4f24-9657-7aa3fe98f64a</tstamps>
-    </comp>
-    <comp ref="D25">
-      <value>D_Small</value>
-      <footprint>custom_parts:D_SOT-23_ANK_norm</footprint>
-      <fields>
-        <field name="LCSC">C68978</field>
-      </fields>
-      <libsource lib="custom" part="D_AAK_Small" description="Diode, small symbol"/>
-      <property name="LCSC" value="C68978"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>35a53d0d-af4e-47a5-871d-61f7e37a4eb6</tstamps>
-    </comp>
-    <comp ref="F1">
-      <value>Polyfuse_Small</value>
+    <comp ref="F0">
+      <value>polyfuse</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
       <fields>
         <field name="LCSC">C69688</field>
       </fields>
       <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
       <property name="LCSC" value="C69688"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe69268</tstamps>
-    </comp>
-    <comp ref="MX1">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061190ede</tstamps>
-    </comp>
-    <comp ref="MX2">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff853bf</tstamps>
-    </comp>
-    <comp ref="MX3">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff89820</tstamps>
-    </comp>
-    <comp ref="MX4">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8bc52</tstamps>
-    </comp>
-    <comp ref="MX5">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8bfed</tstamps>
-    </comp>
-    <comp ref="MX6">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8ecd0</tstamps>
-    </comp>
-    <comp ref="MX7">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8f0bb</tstamps>
-    </comp>
-    <comp ref="MX8">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8f0d0</tstamps>
-    </comp>
-    <comp ref="MX9">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff8f0e5</tstamps>
-    </comp>
-    <comp ref="MX10">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff965ca</tstamps>
-    </comp>
-    <comp ref="MX11">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006137c879</tstamps>
-    </comp>
-    <comp ref="MX12">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4c8d07de-abf6-40b0-a7d2-0f8e23d06bd6</tstamps>
-    </comp>
-    <comp ref="MX13">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f2bd486f-2ed9-4217-8340-4d7c606291a2</tstamps>
-    </comp>
-    <comp ref="MX14">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fef429cf-1f8d-4fde-9b55-8650597dafcb</tstamps>
-    </comp>
-    <comp ref="MX15">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>273eaf0e-9f63-43a5-8333-3d2c6286dc98</tstamps>
-    </comp>
-    <comp ref="MX16">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3218a4f0-7908-454a-b089-15bb4b6c9c3b</tstamps>
-    </comp>
-    <comp ref="MX17">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8836f22e-2f66-4097-a57c-5975948864b0</tstamps>
-    </comp>
-    <comp ref="MX18">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8d050d10-979d-4c34-a260-0cb1f16eb01d</tstamps>
-    </comp>
-    <comp ref="MX19">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5bcb0396-c65b-4e80-aa1c-84bf3271c972</tstamps>
-    </comp>
-    <comp ref="MX20">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>91ef4684-7de9-471d-8625-e5394729e151</tstamps>
-    </comp>
-    <comp ref="MX21">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>22eac692-46a0-44af-b939-ada8b96539dd</tstamps>
-    </comp>
-    <comp ref="MX22">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.75U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>70898ca6-556a-4d7b-82d6-63ecf2927694</tstamps>
-    </comp>
-    <comp ref="MX23">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.75U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>399272d7-785b-48bf-be8a-6695801abe42</tstamps>
-    </comp>
-    <comp ref="MX24">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8115214a-6014-4dd6-af30-af1a71d07e9a</tstamps>
-    </comp>
-    <comp ref="MX25">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f704f3f4-242f-48c7-8e0f-cc7f56cca656</tstamps>
-    </comp>
-    <comp ref="MX26">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2a9018de-ec62-4449-9b72-5f867e4c9f16</tstamps>
-    </comp>
-    <comp ref="MX27">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>280a7fc1-46aa-45ba-b66f-f3b1e05a9a55</tstamps>
-    </comp>
-    <comp ref="MX28">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5ecea144-f202-417a-8863-8fbbee0646f0</tstamps>
-    </comp>
-    <comp ref="MX29">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6c97b4b5-0d20-49de-be78-81ea89237653</tstamps>
-    </comp>
-    <comp ref="MX30">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>872b3633-45c7-46fb-982d-6dac9fe9c4f0</tstamps>
-    </comp>
-    <comp ref="MX31">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e17a1506-f5c1-4594-a4bf-2893e1650a77</tstamps>
-    </comp>
-    <comp ref="MX32">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bfdc36e6-2964-43da-8217-fb1350701a48</tstamps>
-    </comp>
-    <comp ref="MX33">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>940005b4-9397-4de1-b1a5-5acc941da73b</tstamps>
-    </comp>
-    <comp ref="MX34">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>01179848-3052-40ae-9fd8-2e20e9ed0845</tstamps>
-    </comp>
-    <comp ref="MX35">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>93cf144b-1579-4b73-91dd-658c6779d4cf</tstamps>
-    </comp>
-    <comp ref="MX36">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c4da24f6-fee7-4a8a-9df6-304aba719e97</tstamps>
-    </comp>
-    <comp ref="MX37">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-3U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>449ccd52-f536-451e-b9e4-b7068f84e8d3</tstamps>
-    </comp>
-    <comp ref="MX39">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-2U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b3f21e20-4023-48d5-abca-84683badc986</tstamps>
-    </comp>
-    <comp ref="MX40">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d37c90cf-9589-43be-bbcf-62844bbf3d74</tstamps>
-    </comp>
-    <comp ref="MX41">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>10e097f2-2b96-4232-bfd8-bb7166fdcd32</tstamps>
-    </comp>
-    <comp ref="MX42">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f2caf9ff-8935-4031-8596-93a02f10c900</tstamps>
-    </comp>
-    <comp ref="MX43">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>82a7f5f6-0cb2-461f-bdff-a6823f049913</tstamps>
-    </comp>
-    <comp ref="MX44">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-2.75U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>03f9e603-b92b-4e53-8338-7139dd611038</tstamps>
-    </comp>
-    <comp ref="MX45">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-2.25U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c606882-716d-41cd-aa67-e747f4b6537b</tstamps>
-    </comp>
-    <comp ref="MX46">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-2.25U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6f271607-2c2f-44ba-8bc6-4d074235c49c</tstamps>
-    </comp>
-    <comp ref="MX47">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-2.75U-ReversedStabilizers-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>71ef2af6-4f11-41b2-8645-6ada2748a202</tstamps>
-    </comp>
-    <comp ref="MX48">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.5U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>40261f72-2dd1-407c-a57e-317dcb15efb0</tstamps>
-    </comp>
-    <comp ref="MX49">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>13995768-dfbc-47fe-a98e-cfd21d606cc0</tstamps>
-    </comp>
-    <comp ref="MX50">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5818156c-97b7-4b2b-a426-6312babf3282</tstamps>
-    </comp>
-    <comp ref="MX51">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0ed3ba67-9b21-49ea-a0e6-c998699fe863</tstamps>
-    </comp>
-    <comp ref="MX52">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>48f545e6-2731-46e6-b4f4-8c3baf49f4a9</tstamps>
-    </comp>
-    <comp ref="MX53">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ca3c4b51-fd3c-419b-b8ea-82dba0603040</tstamps>
-    </comp>
-    <comp ref="MX54">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>eae60a09-b813-4f08-ac9f-3cf4055f07fe</tstamps>
-    </comp>
-    <comp ref="MX55">
-      <value>MX-NoLED</value>
-      <footprint>MX_Only:MXOnly-1.5U-NoLED</footprint>
-      <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0a4a14a6-270b-4d6e-a7d9-450b742da7b7</tstamps>
-    </comp>
-    <comp ref="R1">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C27834</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C27834"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061077ab4</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C27834</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C27834"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000061079e55</tstamps>
-    </comp>
-    <comp ref="R3">
-      <value>22</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C17561</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17561"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe50300</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>22</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C17561</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17561"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe50a64</tstamps>
-    </comp>
-    <comp ref="R5">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C17414</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17414"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe37d20</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C17414</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="LCSC" value="C17414"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe4e455</tstamps>
-    </comp>
-    <comp ref="RESET1">
-      <value>RESET</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="LCSC" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe458b9</tstamps>
-    </comp>
-    <comp ref="RGB1">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3de39562-ecb0-492f-b71f-d276cee23e94</tstamps>
-    </comp>
-    <comp ref="RGB2">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>733ef4dc-b125-4d0d-aced-9fcc635339ec</tstamps>
-    </comp>
-    <comp ref="RGB3">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9488da26-94a3-412c-9aeb-7269bb32820d</tstamps>
-    </comp>
-    <comp ref="RGB4">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a4f96c2f-faf1-4802-aeda-14d71698ec49</tstamps>
-    </comp>
-    <comp ref="RGB5">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4627c2cb-65b2-432f-a33d-b8963077a2c5</tstamps>
-    </comp>
-    <comp ref="RGB6">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>45b05d24-fecd-498a-bab1-79cc4a63c261</tstamps>
-    </comp>
-    <comp ref="RGB7">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>805a5cbc-3cc6-47ba-8a70-8c129ef32081</tstamps>
-    </comp>
-    <comp ref="RGB8">
-      <value>WS2812B</value>
-      <footprint>custom_parts:WS2812-2020</footprint>
-      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C965555</field>
-      </fields>
-      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
-      <property name="LCSC" value="C965555"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e5cd1eff-320b-485f-8316-d60772364ecc</tstamps>
-    </comp>
-    <comp ref="U1">
-      <value>ATmega32U2-A</value>
-      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C618733</field>
-      </fields>
-      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U2-A" description="16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32"/>
-      <property name="LCSC" value="C618733"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3a4555b5-1649-4667-8663-bb110aa6d3f1</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>SRV05-4</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
-      <fields>
-        <field name="LCSC">C85364</field>
-      </fields>
-      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
-      <property name="LCSC" value="C85364"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00006134af5c</tstamps>
-    </comp>
-    <comp ref="USB1">
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>68e24488-37a7-477a-83b7-f3111f9f73c7</tstamps>
+    </comp>
+    <comp ref="J0">
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
@@ -1124,26 +1299,343 @@
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="LCSC" value="C165948"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060ffc828</tstamps>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>2748e1c9-13ef-4be9-8a05-b5f373fbd201</tstamps>
     </comp>
-    <comp ref="X1">
-      <value>Crystal_GND24_Small</value>
+    <comp ref="J1">
+      <value>BREAKOUT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>7f309b89-dbca-4f66-bcaa-55b2ff220c19</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>d1c8f35c-2f81-44c3-92ac-c2b939a3237a</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Breakout 1.1v</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>a4ffa9ab-6c4e-40f0-822d-6ff4745694df</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C115316</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C115316"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005edae9f0</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C104170</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C104170"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ede0881</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C104170</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C104170"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ede1624</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C115316</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C115316"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005f0d8ebf</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>da63dcb2-5a77-45a9-b785-2876e89287df</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C27834"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>1fc5be1e-cce7-4285-b6b9-19afff45415d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C115309</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C115309"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>94e7d094-93d3-4e3c-87f0-c822a1d2411b</tstamps>
+    </comp>
+    <comp ref="SW0">
+      <value>RESET </value>
+      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C2886894</field>
+      </fields>
+      <libsource lib="cipulot_parts" part="SW_PUSH" description=""/>
+      <property name="LCSC" value="C2886894"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>2c8fa47b-35bd-4bbc-8584-8c363366e5f3</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>RESET</value>
+      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C2886894</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C2886894"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>fa7ba5f1-8b04-427b-bffd-692e9069405c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C97521</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="LCSC" value="C97521"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="ki_keywords" value="flash memory SPI QPI DTR"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005eda5f2c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>RP2040</value>
+      <footprint>RP2040:RP2040-QFN-56</footprint>
+      <fields>
+        <field name="LCSC">C2040</field>
+      </fields>
+      <libsource lib="MCU_RaspberryPi_RP2040" part="RP2040" description=""/>
+      <property name="LCSC" value="C2040"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>00000000-0000-0000-0000-00005ed8f5d6</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>XC6206P Smaller footprint, less mA ~.5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>`</datasheet>
+      <fields>
+        <field name="LCSC">C347376</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="LCSC" value="C347376"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="ki_keywords" value="Torex LDO Voltage Regulator Fixed Positive"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>9c0a7845-ce10-4edb-beb1-537c5e2b14e8</tstamps>
+    </comp>
+    <comp ref="U44">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C85364</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="LCSC" value="C85364"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="ki_keywords" value="ESD protection diodes"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>e91be9fc-e3e0-4dc9-bd54-89db9a1cbd86</tstamps>
+    </comp>
+    <comp ref="Y0">
+      <value>12MHZ Crystal </value>
       <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
       <fields>
-        <field name="LCSC">C13738</field>
+        <field name="LCSC">C9002</field>
       </fields>
-      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
-      <property name="LCSC" value="C13738"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="dizzy40.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fe3ef08</tstamps>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="LCSC" value="C9002"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="../../Clacky40/pcb/rp2040/RP2040_tmp.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/MCU/" tstamps="/d1f0b8dc-8dc0-4a92-aa5f-3297d75ccc06/"/>
+      <tstamps>b97343e3-384a-41b5-ab14-e5685470ca6f</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
       <description>USB 2.0-only Type-C Receptacle connector</description>
       <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
@@ -1175,15 +1667,15 @@
         <pin num="S1" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C_Small">
-      <description>Unpolarized capacitor, small symbol</description>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
       <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_Small</field>
+        <field name="Value">C</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1191,15 +1683,15 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Crystal_GND24_Small">
-      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
       <docs>~</docs>
       <footprints>
         <fp>Crystal*</fp>
       </footprints>
       <fields>
         <field name="Reference">Y</field>
-        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Value">Crystal_GND24</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1226,6 +1718,22 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R_Small">
       <description>Resistor, small symbol</description>
       <docs>~</docs>
@@ -1240,6 +1748,43 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV70">
+      <description>Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV70</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="LED" part="WS2812B">
@@ -1261,61 +1806,93 @@
         <pin num="4" name="DIN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_Microchip_ATmega" part="ATmega32U2-A">
-      <description>16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</docs>
+    <libpart lib="MCU_RaspberryPi_RP2040" part="RP2040">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">RP2040_minimal:RP2040-QFN-56</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="passive"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29_ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
       <footprints>
-        <fp>TQFP*7x7mm*P0.8mm*</fp>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ATmega32U2-A</field>
-        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
-        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="XTAL1" type="input"/>
-        <pin num="2" name="PC0/XTAL2" type="bidirectional"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VCC" type="power_in"/>
-        <pin num="5" name="PC2" type="bidirectional"/>
-        <pin num="6" name="PD0" type="bidirectional"/>
-        <pin num="7" name="PD1" type="bidirectional"/>
-        <pin num="8" name="PD2" type="bidirectional"/>
-        <pin num="9" name="PD3" type="bidirectional"/>
-        <pin num="10" name="PD4" type="bidirectional"/>
-        <pin num="11" name="PD5" type="bidirectional"/>
-        <pin num="12" name="PD6" type="bidirectional"/>
-        <pin num="13" name="~{HWB}/PD7" type="bidirectional"/>
-        <pin num="14" name="PB0" type="bidirectional"/>
-        <pin num="15" name="PB1" type="bidirectional"/>
-        <pin num="16" name="PB2" type="bidirectional"/>
-        <pin num="17" name="PB3" type="bidirectional"/>
-        <pin num="18" name="PB4" type="bidirectional"/>
-        <pin num="19" name="PB5" type="bidirectional"/>
-        <pin num="20" name="PB6" type="bidirectional"/>
-        <pin num="21" name="PB7" type="bidirectional"/>
-        <pin num="22" name="PC7" type="bidirectional"/>
-        <pin num="23" name="PC6" type="bidirectional"/>
-        <pin num="24" name="PC1/~{RESET}" type="bidirectional"/>
-        <pin num="25" name="PC5" type="bidirectional"/>
-        <pin num="26" name="PC4" type="bidirectional"/>
-        <pin num="27" name="UCAP" type="passive"/>
-        <pin num="28" name="UGND" type="power_in"/>
-        <pin num="29" name="D+" type="bidirectional"/>
-        <pin num="30" name="D-" type="bidirectional"/>
-        <pin num="31" name="UVCC" type="power_in"/>
-        <pin num="32" name="AVCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="MX_Alps_Hybrid" part="MX-NoLED">
-      <fields>
-        <field name="Reference">MX</field>
-        <field name="Value">MX-NoLED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="COL" type="passive"/>
-        <pin num="2" name="ROW" type="passive"/>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Power_Protection" part="SRV05-4">
@@ -1339,6 +1916,24 @@
         <pin num="6" name="IO4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Regulator_Linear" part="XC6206PxxxMR">
+      <description>Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23</description>
+      <docs>https://www.torexsemi.com/file/xc6206/XC6206.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC6206PxxxMR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6206/XC6206.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
@@ -1352,60 +1947,97 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="custom" part="D_AAK_Small">
-      <description>Diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
+    <libpart lib="cipulot_parts" part="SW_PUSH">
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_AAK_Small</field>
-        <field name="Datasheet">~</field>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A1" type="passive"/>
-        <pin num="3" name="A2" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Connector.lib</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Diode.lib</uri>
     </library>
     <library logical="LED">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/LED.kicad_sym</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/LED.lib</uri>
     </library>
-    <library logical="MCU_Microchip_ATmega">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
-    </library>
-    <library logical="MX_Alps_Hybrid">
-      <uri>D:\elmo\Documents\Git\keyboard_design\Dizzy40\pcb/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib</uri>
+    <library logical="Memory_Flash">
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Memory_Flash.lib</uri>
     </library>
     <library logical="Power_Protection">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Power_Protection.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Regulator_Linear.lib</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Switch.lib</uri>
     </library>
-    <library logical="custom">
-      <uri>D:\elmo\Documents\Git\keyboard_design\Dizzy40\pcb/custom_parts/custom.lib</uri>
+    <library logical="cipulot_parts">
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/cipulot_kicad_parts/cipulot_parts.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
+    <net code="1" name="+1V1">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U3" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U3" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U3" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U3" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
+      <node ref="U3" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U3" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="F0" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="RGB1" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="RGB2" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="RGB3" pin="1" pinfunction="VDD" pintype="power_in"/>
@@ -1414,33 +2046,243 @@
       <node ref="RGB6" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="RGB7" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="RGB8" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U1" pin="31" pinfunction="UVCC" pintype="power_in"/>
-      <node ref="U1" pin="32" pinfunction="AVCC" pintype="power_in"/>
-      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="RGB9" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U44" pin="5" pinfunction="VP" pintype="passive"/>
     </net>
-    <net code="2" name="D+">
+    <net code="4" name="/MCU/GPIO26_ADC0">
+      <node ref="U3" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/MCU/GPIO27_ADC1">
+      <node ref="U3" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/MCU/GPIO28_ADC2">
+      <node ref="U3" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/MCU/GPIO29_ADC3">
+      <node ref="U3" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/MCU/QSPI_SCLK">
+      <node ref="U2" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U3" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+    </net>
+    <net code="9" name="/MCU/QSPI_SD0">
+      <node ref="U2" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U3" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/MCU/QSPI_SD1">
+      <node ref="U2" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U3" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/MCU/QSPI_SD2">
+      <node ref="U2" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U3" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/MCU/QSPI_SD3">
+      <node ref="U2" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U3" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/MCU/QSPI_SS">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U3" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/MCU/RUN">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="15" name="/MCU/SWCLK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="SWCLK" pintype="output"/>
+    </net>
+    <net code="16" name="/MCU/SWD">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/MCU/USB_D+">
+      <node ref="J0" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J0" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="IO1" pintype="passive"/>
-      <node ref="USB1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="USB1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U44" pin="1" pinfunction="IO1" pintype="passive"/>
     </net>
-    <net code="3" name="D-">
+    <net code="18" name="/MCU/USB_D-">
+      <node ref="J0" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J0" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="IO3" pintype="passive"/>
-      <node ref="USB1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="USB1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U44" pin="6" pinfunction="IO4" pintype="passive"/>
     </net>
-    <net code="4" name="GND">
+    <net code="19" name="/MCU/XIN">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y0" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="/MCU/XOUT">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="XOUT" pintype="passive"/>
+    </net>
+    <net code="21" name="/MCU/~{USB_BOOT}">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW0" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="COL0">
+      <node ref="ENC1" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="K12" pin="2" pintype="passive"/>
+      <node ref="K23" pin="2" pintype="passive"/>
+      <node ref="K34" pin="2" pintype="passive"/>
+      <node ref="K51" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="COL1">
+      <node ref="K13" pin="1" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+      <node ref="K24" pin="1" pintype="passive"/>
+      <node ref="K35" pin="1" pintype="passive"/>
+      <node ref="K52" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="COL2">
+      <node ref="K14" pin="2" pintype="passive"/>
+      <node ref="K25" pin="2" pintype="passive"/>
+      <node ref="K3" pin="2" pintype="passive"/>
+      <node ref="K36" pin="2" pintype="passive"/>
+      <node ref="K53" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="COL3">
+      <node ref="K15" pin="1" pintype="passive"/>
+      <node ref="K26" pin="1" pintype="passive"/>
+      <node ref="K37" pin="1" pintype="passive"/>
+      <node ref="K4" pin="1" pintype="passive"/>
+      <node ref="K45" pin="1" pintype="passive"/>
+      <node ref="K46" pin="1" pintype="passive"/>
+      <node ref="K54" pin="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="COL4">
+      <node ref="ENC2" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="K16" pin="2" pintype="passive"/>
+      <node ref="K27" pin="2" pintype="passive"/>
+      <node ref="K38" pin="2" pintype="passive"/>
+      <node ref="K5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="COL5">
+      <node ref="K17" pin="1" pintype="passive"/>
+      <node ref="K28" pin="1" pintype="passive"/>
+      <node ref="K39" pin="1" pintype="passive"/>
+      <node ref="K55" pin="1" pintype="passive"/>
+      <node ref="K57" pin="1" pintype="passive"/>
+      <node ref="K6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="COL6">
+      <node ref="K18" pin="2" pintype="passive"/>
+      <node ref="K29" pin="2" pintype="passive"/>
+      <node ref="K40" pin="2" pintype="passive"/>
+      <node ref="K56" pin="2" pintype="passive"/>
+      <node ref="K7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="COL7">
+      <node ref="K19" pin="1" pintype="passive"/>
+      <node ref="K30" pin="1" pintype="passive"/>
+      <node ref="K41" pin="1" pintype="passive"/>
+      <node ref="K50" pin="1" pintype="passive"/>
+      <node ref="K58" pin="1" pintype="passive"/>
+      <node ref="K8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="COL8">
+      <node ref="K20" pin="2" pintype="passive"/>
+      <node ref="K31" pin="2" pintype="passive"/>
+      <node ref="K42" pin="2" pintype="passive"/>
+      <node ref="K49" pin="2" pintype="passive"/>
+      <node ref="K9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="COL9">
+      <node ref="K10" pin="1" pintype="passive"/>
+      <node ref="K21" pin="1" pintype="passive"/>
+      <node ref="K32" pin="1" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="COL10">
+      <node ref="K11" pin="2" pintype="passive"/>
+      <node ref="K22" pin="2" pintype="passive"/>
+      <node ref="K33" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="COL11">
+      <node ref="K59" pin="1" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="ENC_ESC_L">
+      <node ref="ENC1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="ENC_ESC_R">
+      <node ref="ENC1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="ENC_ROW_MID">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="ENC2" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="K38" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="ENC_ROW_TOP">
+      <node ref="D17" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="ENC1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="ENC_SPC_L">
+      <node ref="ENC2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="ENC_SPC_R">
+      <node ref="ENC2" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="RESET1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="ENC1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="ENC2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="J0" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J0" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="RGB1" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="RGB2" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="RGB3" pin="3" pinfunction="VSS" pintype="power_in"/>
@@ -1449,429 +2291,331 @@
       <node ref="RGB6" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="RGB7" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="RGB8" pin="3" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U1" pin="28" pinfunction="UGND" pintype="power_in"/>
-      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="2" pinfunction="VN" pintype="passive"/>
-      <node ref="USB1" pin="A1" pinfunction="GND" pintype="passive"/>
-      <node ref="USB1" pin="A12" pinfunction="GND" pintype="passive"/>
-      <node ref="USB1" pin="B1" pinfunction="GND" pintype="passive"/>
-      <node ref="USB1" pin="B12" pinfunction="GND" pintype="passive"/>
-      <node ref="USB1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="RGB9" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="SW0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="19" pinfunction="TESTEN" pintype="passive"/>
+      <node ref="U3" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U44" pin="2" pinfunction="VN" pintype="passive"/>
+      <node ref="Y0" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y0" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="5" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="XTAL1" pintype="input"/>
-      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="41" name="LED_GLOW">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
-    <net code="6" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="PC0/XTAL2" pintype="bidirectional"/>
-      <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="7" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="U1" pin="27" pinfunction="UCAP" pintype="passive"/>
-    </net>
-    <net code="8" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX1" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(D1-Pad3)">
-      <node ref="D1" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX2" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="10" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX3" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(D2-Pad3)">
-      <node ref="D2" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX4" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="12" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX5" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(D3-Pad3)">
-      <node ref="D3" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX6" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="14" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX7" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="15" name="Net-(D4-Pad3)">
-      <node ref="D4" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX8" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="16" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX9" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(D5-Pad3)">
-      <node ref="D5" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX10" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(D6-Pad3)">
-      <node ref="D6" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX11" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="19" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX13" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="20" name="Net-(D8-Pad3)">
-      <node ref="D8" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX14" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="21" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX15" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="22" name="Net-(D9-Pad3)">
-      <node ref="D9" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX16" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX17" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(D10-Pad3)">
-      <node ref="D10" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX18" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="25" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX19" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="26" name="Net-(D11-Pad3)">
-      <node ref="D11" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX20" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="27" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX21" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(D12-Pad3)">
-      <node ref="D12" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX22" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX23" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="30" name="Net-(D14-Pad3)">
-      <node ref="D14" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX24" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="31" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX25" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(D15-Pad3)">
-      <node ref="D15" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX26" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="33" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX27" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="34" name="Net-(D16-Pad3)">
-      <node ref="D16" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX28" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="35" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX29" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="36" name="Net-(D17-Pad3)">
-      <node ref="D17" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX30" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(D18-Pad2)">
-      <node ref="D18" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX31" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="38" name="Net-(D18-Pad3)">
-      <node ref="D18" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX32" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="39" name="Net-(D19-Pad2)">
-      <node ref="D19" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX12" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="40" name="Net-(D19-Pad3)">
-      <node ref="D19" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX34" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX48" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="41" name="Net-(D20-Pad2)">
-      <node ref="D20" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX35" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX49" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX50" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(D20-Pad3)">
-      <node ref="D20" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX36" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX51" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="43" name="Net-(D23-Pad2)">
-      <node ref="D23" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX40" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX52" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="44" name="Net-(D23-Pad3)">
-      <node ref="D23" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX41" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX53" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX54" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="45" name="Net-(D24-Pad2)">
-      <node ref="D24" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX33" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="46" name="Net-(D24-Pad3)">
-      <node ref="D24" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX42" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX55" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="47" name="Net-(D25-Pad3)">
-      <node ref="D25" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX43" pin="2" pinfunction="ROW" pintype="passive"/>
-    </net>
-    <net code="48" name="Net-(R1-Pad2)">
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="USB1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-    </net>
-    <net code="49" name="Net-(R2-Pad2)">
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="USB1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-    </net>
-    <net code="50" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="29" pinfunction="D+" pintype="bidirectional"/>
-    </net>
-    <net code="51" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="30" pinfunction="D-" pintype="bidirectional"/>
-    </net>
-    <net code="52" name="Net-(R5-Pad2)">
+    <net code="42" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="~{HWB}/PD7" pintype="bidirectional"/>
+      <node ref="Y0" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(R6-Pad1)">
+    <net code="43" name="Net-(D17-A-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K2" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D18-A-Pad1)">
+      <node ref="D18" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K3" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D18-A-Pad2)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K4" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D19-A-Pad1)">
+      <node ref="D19" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K5" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D19-A-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K6" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D20-A-Pad1)">
+      <node ref="D20" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K7" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D20-A-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K8" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D21-A-Pad1)">
+      <node ref="D21" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K10" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D21-A-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K9" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D22-A-Pad1)">
+      <node ref="D22" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K59" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D22-A-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K11" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D23-A-Pad1)">
+      <node ref="D23" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K13" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D23-A-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K12" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D24-A-Pad1)">
+      <node ref="D24" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K15" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D24-A-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K14" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D25-A-Pad1)">
+      <node ref="D25" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K17" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D25-A-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K16" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D26-A-Pad1)">
+      <node ref="D26" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K19" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D26-A-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K18" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D27-A-Pad1)">
+      <node ref="D27" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K20" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D27-A-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K21" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D28-A-Pad1)">
+      <node ref="D28" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K22" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D29-A-Pad1)">
+      <node ref="D29" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K24" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D29-A-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K23" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D30-A-Pad1)">
+      <node ref="D30" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K25" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D30-A-Pad2)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K26" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D31-A-Pad1)">
+      <node ref="D31" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K27" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D31-A-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K28" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D32-A-Pad1)">
+      <node ref="D32" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K30" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D32-A-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K29" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D33-A-Pad1)">
+      <node ref="D33" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K31" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D33-A-Pad2)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K32" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D34-A-Pad1)">
+      <node ref="D34" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K33" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D35-A-Pad1)">
+      <node ref="D35" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K35" pin="2" pintype="passive"/>
+      <node ref="K52" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D35-A-Pad2)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K34" pin="1" pintype="passive"/>
+      <node ref="K51" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D36-A-Pad1)">
+      <node ref="D36" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K37" pin="2" pintype="passive"/>
+      <node ref="K45" pin="2" pintype="passive"/>
+      <node ref="K46" pin="2" pintype="passive"/>
+      <node ref="K54" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D36-A-Pad2)">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K36" pin="1" pintype="passive"/>
+      <node ref="K53" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D37-A-Pad1)">
+      <node ref="D37" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K39" pin="2" pintype="passive"/>
+      <node ref="K55" pin="2" pintype="passive"/>
+      <node ref="K57" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D38-A-Pad1)">
+      <node ref="D38" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K41" pin="2" pintype="passive"/>
+      <node ref="K50" pin="2" pintype="passive"/>
+      <node ref="K58" pin="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D38-A-Pad2)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="K40" pin="1" pintype="passive"/>
+      <node ref="K56" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D39-A-Pad1)">
+      <node ref="D39" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="K42" pin="1" pintype="passive"/>
+      <node ref="K49" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J0-CC1)">
+      <node ref="J0" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(J0-CC2)">
+      <node ref="J0" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="24" pinfunction="PC1/~{RESET}" pintype="bidirectional"/>
     </net>
-    <net code="54" name="Net-(RGB1-Pad2)">
+    <net code="86" name="Net-(RGB1-DOUT)">
       <node ref="RGB1" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB2" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="55" name="Net-(RGB2-Pad2)">
+    <net code="87" name="Net-(RGB2-DOUT)">
       <node ref="RGB2" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB3" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="56" name="Net-(RGB3-Pad2)">
+    <net code="88" name="Net-(RGB3-DOUT)">
       <node ref="RGB3" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB4" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="57" name="Net-(RGB4-Pad2)">
+    <net code="89" name="Net-(RGB4-DOUT)">
       <node ref="RGB4" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB5" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="58" name="Net-(RGB5-Pad2)">
+    <net code="90" name="Net-(RGB5-DOUT)">
       <node ref="RGB5" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB6" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="59" name="Net-(RGB6-Pad2)">
+    <net code="91" name="Net-(RGB6-DOUT)">
       <node ref="RGB6" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB7" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="60" name="Net-(RGB7-Pad2)">
+    <net code="92" name="Net-(RGB7-DOUT)">
       <node ref="RGB7" pin="2" pinfunction="DOUT" pintype="output"/>
       <node ref="RGB8" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="61" name="RGB">
-      <node ref="RGB1" pin="4" pinfunction="DIN" pintype="input"/>
-      <node ref="U1" pin="18" pinfunction="PB4" pintype="bidirectional"/>
-    </net>
-    <net code="62" name="VCC">
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="U2" pin="5" pinfunction="VP" pintype="passive"/>
-      <node ref="USB1" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="USB1" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="USB1" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="USB1" pin="B9" pinfunction="VBUS" pintype="passive"/>
-    </net>
-    <net code="63" name="col0">
-      <node ref="MX1" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX12" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX23" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="23" pinfunction="PC6" pintype="bidirectional"/>
-    </net>
-    <net code="64" name="col1">
-      <node ref="MX13" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX2" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX24" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX34" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX48" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="22" pinfunction="PC7" pintype="bidirectional"/>
-    </net>
-    <net code="65" name="col2">
-      <node ref="MX14" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX25" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX3" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX35" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX49" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX50" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="21" pinfunction="PB7" pintype="bidirectional"/>
-    </net>
-    <net code="66" name="col3">
-      <node ref="MX15" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX26" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX36" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX4" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX51" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="20" pinfunction="PB6" pintype="bidirectional"/>
-    </net>
-    <net code="67" name="col4">
-      <node ref="MX16" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX27" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX37" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX44" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX46" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX5" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
-    </net>
-    <net code="68" name="col5">
-      <node ref="MX17" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX28" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX39" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX45" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX47" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX6" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="PD2" pintype="bidirectional"/>
-    </net>
-    <net code="69" name="col6">
-      <node ref="MX18" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX29" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX40" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX52" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX7" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
-    </net>
-    <net code="70" name="col7">
-      <node ref="MX19" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX30" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX41" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX53" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX54" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX8" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
-    </net>
-    <net code="71" name="col8">
-      <node ref="MX20" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX31" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX42" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX55" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX9" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="9" pinfunction="PD3" pintype="bidirectional"/>
-    </net>
-    <net code="72" name="col9">
-      <node ref="MX10" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX21" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX32" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX33" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="10" pinfunction="PD4" pintype="bidirectional"/>
-    </net>
-    <net code="73" name="col10">
-      <node ref="MX11" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX22" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="MX43" pin="1" pinfunction="COL" pintype="passive"/>
-      <node ref="U1" pin="11" pinfunction="PD5" pintype="bidirectional"/>
-    </net>
-    <net code="74" name="row0">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional"/>
-    </net>
-    <net code="75" name="row1">
-      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
-    </net>
-    <net code="76" name="row2">
-      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="PC2" pintype="bidirectional"/>
-    </net>
-    <net code="77" name="row3">
-      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U1" pin="16" pinfunction="PB2" pintype="bidirectional"/>
-    </net>
-    <net code="78" name="spc1">
-      <node ref="D22" pin="2" pinfunction="A1" pintype="passive"/>
-      <node ref="MX37" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX44" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX46" pin="1" pinfunction="COL" pintype="passive"/>
-    </net>
-    <net code="79" name="spc2">
-      <node ref="D22" pin="3" pinfunction="A2" pintype="passive"/>
-      <node ref="MX39" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX45" pin="2" pinfunction="ROW" pintype="passive"/>
-      <node ref="MX47" pin="1" pinfunction="COL" pintype="passive"/>
-    </net>
-    <net code="80" name="unconnected-(D6-Pad2)">
-      <node ref="D6" pin="2" pinfunction="A1" pintype="passive"/>
-    </net>
-    <net code="81" name="unconnected-(D25-Pad2)">
-      <node ref="D25" pin="2" pinfunction="A1" pintype="passive"/>
-    </net>
-    <net code="82" name="unconnected-(RGB8-Pad2)">
+    <net code="93" name="Net-(RGB8-DOUT)">
       <node ref="RGB8" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="RGB9" pin="4" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="83" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pinfunction="PD0" pintype="bidirectional"/>
+    <net code="94" name="Net-(U3-USB_DM)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="84" name="unconnected-(U1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="PD1" pintype="bidirectional"/>
+    <net code="95" name="Net-(U3-USB_DP)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="85" name="unconnected-(U1-Pad12)">
-      <node ref="U1" pin="12" pinfunction="PD6" pintype="bidirectional"/>
+    <net code="96" name="RGB">
+      <node ref="RGB1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="86" name="unconnected-(U1-Pad17)">
-      <node ref="U1" pin="17" pinfunction="PB3" pintype="bidirectional"/>
+    <net code="97" name="ROW0">
+      <node ref="D17" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="87" name="unconnected-(U2-Pad3)">
-      <node ref="U2" pin="3" pinfunction="IO2" pintype="passive"/>
+    <net code="98" name="ROW1">
+      <node ref="D23" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="88" name="unconnected-(U2-Pad6)">
-      <node ref="U2" pin="6" pinfunction="IO4" pintype="passive"/>
+    <net code="99" name="ROW2">
+      <node ref="D29" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="89" name="unconnected-(USB1-PadA8)">
-      <node ref="USB1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    <net code="100" name="ROW3">
+      <node ref="D35" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="90" name="unconnected-(USB1-PadB8)">
-      <node ref="USB1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    <net code="101" name="VBUS">
+      <node ref="F0" pin="1" pintype="passive"/>
+      <node ref="J0" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J0" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J0" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J0" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(D28-A-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(D34-A-Pad2)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(D39-A-Pad2)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(J0-SBU1-PadA8)">
+      <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J0-SBU2-PadB8)">
+      <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(RGB9-DOUT-Pad2)">
+      <node ref="RGB9" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U3-GPIO16-Pad27)">
+      <node ref="U3" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(U3-GPIO20-Pad31)">
+      <node ref="U3" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="unconnected-(U3-GPIO21-Pad32)">
+      <node ref="U3" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="unconnected-(U3-GPIO22-Pad34)">
+      <node ref="U3" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="unconnected-(U44-IO2-Pad3)">
+      <node ref="U44" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(U44-IO3-Pad4)">
+      <node ref="U44" pin="4" pinfunction="IO3" pintype="passive"/>
     </net>
   </nets>
 </export>
