@@ -5,14 +5,14 @@ Running with a RP2040, adapted from elmos:![Dizzy40](https://github.com/kb-elmo/
 
 --- 
 ## Status:
-- PCB tested, _Vial support available_
+- PCB tested, _Vial support available_, working
 - compatible with Case!
 - minor issue with footprint fixed, pcb is fully functional now
  
 
 ## Features:
 - RP2040 
-- (TODO) ZMK support
+- _(TODO) ZMK support_
 - VIAL / QMK support
 - supports two encoders
 - additional layout options
@@ -38,14 +38,32 @@ For that you will have to:
 
 ### Getting PCBs:
 
-TODO, once prototypes are functional
+Gathering PCBs is fairly simple, at least with JLCPCB ( which I usually default to and base my workflow around).
+under the `/production/*` section you can find a zip-archive that contains the required gerber for the newest version of this board. 
 
-## Images: 
+1. upload the `*_gerber.zip` to JLCs website and select your prefered parameters ( pcb color, etc)
+2. select "assembly" if you want to order this pcb **fully assembled with MCU etc** 
+3. you will now have to supply the _positions_ and _bom (bill of materials)_ as **.csv**. You can find those at `/production/assembly/*` and should then upload them accordingly.
+4. check whether every component is selected in the BOM-overview ( pinouts like J1 to Jx or keyswitches are listed but dont require any component, you can leave them out so to say)
+5. finally confirm placement of the selected components ( usually I have them correct them anyway so its more or less a _sanity check_)
+6. you have now ordered pcbs successfully
+
+## Images:
+
+
+### | Images of PCB | 
 
 ![front image of pcb](/material/images/clacky40_front_2.jpg)
 
 ![back image of pcb](/material/images/clacky40_back_1.jpg)
 
+### | Built with Daisy40-Case from KPrepbulic | 
+
+![built keyboard with pcb in the back](/material/images/clacky40_built_front.jpg)
+
+![built keyboard backside](/material/images/clacky40_built_back_off.jpg)
+
+![built keyboard backside with LEDS on](/material/images/clacky40_built_back_on.jpg)
 
 ---
 
