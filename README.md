@@ -7,7 +7,7 @@ Running with a RP2040, adapted from elmos:![Dizzy40](https://github.com/kb-elmo/
 ## Status:
 - PCB tested, _Vial support available_, working
 - compatible with Case!
-- minor issue with footprint fixed, pcb is fully functional now
+- minor issue with footprint fixed, pcb is fully functional now (see https://github.com/ScatteredDrifter/Clacky40/issues/3 ) 
  
 
 ## Features:
